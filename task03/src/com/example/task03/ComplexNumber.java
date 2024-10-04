@@ -4,7 +4,6 @@ public class ComplexNumber {
     private double real;
     private double imaginary;
 
-    // Конструктор
     public ComplexNumber(double real, double imaginary) {
         this.real = real;
         this.imaginary = imaginary;
@@ -33,7 +32,6 @@ public class ComplexNumber {
         return new ComplexNumber(newReal, newImaginary);
     }
 
-    // Вывод комплексного числа
     public String toString() {
         return String.format("%.2f + %.2fi", real, imaginary);
     }
